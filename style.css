@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background-image: url(images/tree.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+.nav {
+    width: 1200px;
+    height: 70px;
+    margin: auto;
+}
+.icon {
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+.logo {
+    color: orange;
+    font-size: 35px;
+    font-family: Arial;
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.menu {
+    float: left;
+    width: 400px;
+    height: 70px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    float: left;
+}
+ul li {
+    margin-left: 50px;
+    margin-top: 16px;
+    font-size: 16px;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: orange;
+}
+.search {
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch {
+    width: 200px;
+    height: 20px;
+    font-family: 'Times New Roman';
+    background: transparent;
+    border: 1px solid orange;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 18px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    float: left;
+    padding: 10px;
+}
+.btn {
+    width: 100px;
+    height: 42px;
+    border: 2px solid orange;
+    background: orange;
+    border-radius: 5px;
+    margin-top: 13px;
+    color: white;
+    text-align: center;
+    font-family:Arial;
+}
+.btn:focus{
+    outline: none;
+}
+.src:focus{
+    outline: none;
+}
+.content {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.content .para {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    letter-spacing: 1.2px;
+    font-family: Arial;
+    height: 50px;
+}
+.content h1{
+    padding-left: 20px;
+    padding-top: 9%;
+    font-size: 50px;
+    font-family: 'Times New Roman';
+    letter-spacing: 2px;
+}
+.content .cn {
+    border: none;
+    background: orange;
+    width: 160px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.content .cn a {
+    text-decoration: none;
+    color:black;
+}
+.cn:hover{
+    background: white;
+}
+.content span {
+    color: orange;
+    font-size: 60px;
+}
+.form {
+    width: 250px;
+    height: 350px;
+    background:black;
+    position: absolute;
+    left: 870px;
+    top:200px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2 {
+    color: orange;
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input {
+    border-bottom: 2px solid orange;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 220px;
+    height: 35px;
+    background: transparent;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.form:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+}
+.form .btnn {
+    width: 240px;
+    height: 40px;
+    background-color: orange;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.form .btnn{
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+    color: black;
+    padding-right: 10px;
+    
+}
+ .btnn:hover{
+    background-color: white;
+    
+
+}
+.form a {
+    text-decoration: none;
+    color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.form .liv {
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+.icons a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.icons .logo1{
+                            
+                            
+    display: flex;
+    justify-content: space-evenly;
+    padding-block-start: 10px;
+}
+.icons a:hover{
+    color: orange;
+}
